@@ -1,6 +1,6 @@
 # html-speech-recognition-synthesis
 
-This project shows how use the Web Speech API for recognition (speech-to-text) and Synthesis (text-to-speech).
+This project shows how use the Web Speech API for recognition (speech-to-text) and synthesis (text-to-speech).
 
 ## Development Technologies
 
