@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html-speech-recognition-synthesis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="page-content">
+        <h1>Speech Recognition And Synthesis Example</h1>
+        <h3>Click the microphone button below to transcribe speech into the text box, or the play button to speak the contents of the text box.</h3>
+        <div class="text-area">
+            <textarea id="transcript"></textarea>
+        </div>
+        <div class="controls">
+            <button id="speech_button" onclick="onMicrophoneClick()">&#127908;</button>
+            <button id="play_button" onclick="onPlayClick()">&#9658;</button>
+        </div>
+    </div>
+</body>
+</html>
